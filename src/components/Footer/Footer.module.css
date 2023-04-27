@@ -1,0 +1,28 @@
+.footerWrapper {
+  height: 100px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyLink {
+  color: var(--color-red);
+  display: flex;
+  width: 200px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--color-red);
+  border-radius: 8px;
+  transition: all 0.1s ease;
+}
+
+.buyLink:hover {
+  transform: scale(1.1);
+}
+
+.buyLink:active {
+  transform: scale(1.05);
+}
