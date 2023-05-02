@@ -14,6 +14,18 @@ export const Footer = (props) => {
         >
           Купить билеты
         </a>
+        <div>
+          Музыкальным группам{" "}
+          <a className={styles.mailLink} href="mailto:901_km@mail.ru">
+            901_km@mail.ru
+          </a>
+          <br />
+          <br />
+          По вопросам аккредитации{" "}
+          <a className={styles.mailLink} href="mailto:dszm73@yandex.ru">
+            dszm73@yandex.ru
+          </a>
+        </div>
       </footer>
     </>
   );

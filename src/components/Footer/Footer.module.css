@@ -1,10 +1,11 @@
 .footerWrapper {
-  height: 100px;
+  height: 300px;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 
 .buyLink {
@@ -25,4 +26,9 @@
 
 .buyLink:active {
   transform: scale(1.05);
+}
+
+.mailLink {
+  text-decoration: underline;
+  color: var(--color-red);
 }
