@@ -1,3 +1,7 @@
+$tabletLg: 1024px;
+$tablet: 768px;
+$mobileLg: 640px;
+
 .headerWrapper {
   width: 100%;
   display: flex;
@@ -7,6 +11,18 @@
   padding: 0 90px;
   position: sticky;
   top: 0;
+
+  @media (max-width: $tabletLg) {
+    padding: 0 40px;
+  }
+
+  @media (max-width: $tablet) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: $mobileLg) {
+    flex-direction: column;
+  }
 }
 
 .headerNav {
@@ -21,6 +37,11 @@
   height: 100%;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
+
+  @media (max-width: $mobileLg) {
+    width: 100%;
+  }
 }
 
 .headerNavListItemLink {
@@ -42,19 +63,24 @@
 .buyLink {
   color: var(--color-red);
   display: flex;
-  width: 200px;
+  width: 216px;
   height: 60px;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--color-red);
   border-radius: 8px;
   transition: all 0.1s ease;
+  padding: 0 8px;
+
+  @media (max-width: $mobileLg) {
+    margin-bottom: 8px;
+  }
 }
 
 .requestLink {
   color: var(--color-white);
   display: flex;
-  width: 200px;
+  width: 216px;
   height: 60px;
   justify-content: center;
   align-items: center;
@@ -62,6 +88,12 @@
   border-radius: 8px;
   transition: all 0.1s ease;
   margin-right: 20px;
+  padding: 0 8px;
+
+  @media (max-width: $mobileLg) {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
 }
 
 .buyLink:hover,
@@ -79,6 +111,10 @@
   width: 100%;
   height: 50vw;
   min-height: 512px;
+
+  @media (max-width: $tabletLg) {
+    min-height: 612px;
+  }
 }
 
 .headerImage {
@@ -94,5 +130,5 @@
   color: var(--color-red);
   z-index: 1;
   font-weight: 600;
-  font-size: 40px;;
+  font-size: 40px;
 }

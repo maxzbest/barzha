@@ -1,5 +1,5 @@
-import styles from "./PerformersBlock.module.css";
-import Image from "next/image";
+import styles from './PerformersBlock.module.scss';
+import Image from 'next/image';
 
 export const PerformersBlock = () => {
   return (
@@ -9,7 +9,7 @@ export const PerformersBlock = () => {
           <h2>Выступающие</h2>
           <p>
             Следите за новостями о хэдлайнерах, а также ходом подготовки
-            фестиваля в нашей группе в ВК{" "}
+            фестиваля в нашей группе в ВК{' '}
             <a className={styles.vkLink} href="https://vk.com/barzha.live">
               БАРЖА LIVE!
             </a>

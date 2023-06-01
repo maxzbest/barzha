@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./Header.module.css";
+import styles from "./Header.module.scss";
 
 export const Header = () => {
   return (
@@ -9,7 +9,7 @@ export const Header = () => {
           <ul className={styles.headerNavList}>
             <li className={styles.headerNavListItem}>
               <a href="#1" className={styles.headerNavListItemLink}>
-                О фестивале
+                О&nbsp;фестивале
               </a>
             </li>
             <li className={styles.headerNavListItem}>
@@ -30,15 +30,15 @@ export const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Подать заявку
+          Подать&nbsp;заявку
         </a>
         <a
-          href="https://ya.ru"
+          href="https://simbilet.ru/vse-kategorii/konczertyi/drugoe/muzyikalnyijfestivalbarzhalive"
           className={styles.buyLink}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Купить билеты
+          Купить&nbsp;билеты
         </a>
       </header>
       <div className={styles.headerImageWrapper} />

@@ -1,5 +1,5 @@
-import styles from "./AboutFestBlock.module.css";
-import Image from "next/image";
+import styles from './AboutFestBlock.module.scss';
+import Image from 'next/image';
 
 export const AboutFestBlock = () => {
   return (
@@ -17,9 +17,8 @@ export const AboutFestBlock = () => {
         </div>
         <div className={styles.videoWrapper}>
           <iframe
-            src="https://www.youtube.com/embed/tgbNymZ7vqY"
-            width="600"
-            height="300"
+            src="https://www.youtube.com/embed/ujkw73Nd9dI"
+            allowfullscreen
           ></iframe>
         </div>
       </div>

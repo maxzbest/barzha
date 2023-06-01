@@ -1,3 +1,7 @@
+$tabletLg: 1024px;
+$tablet: 768px;
+$mobileLg: 640px;
+
 .footerWrapper {
   height: 300px;
   width: 100%;
@@ -6,18 +10,23 @@
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+
+  @media (max-width: $mobileLg) {
+    padding: 0 20px;
+  }
 }
 
 .buyLink {
   color: var(--color-red);
   display: flex;
-  width: 200px;
+  width: 216px;
   height: 60px;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--color-red);
   border-radius: 8px;
   transition: all 0.1s ease;
+  padding: 0 8px;
 }
 
 .buyLink:hover {

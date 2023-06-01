@@ -1,4 +1,4 @@
-import styles from "./MapBlock.module.css";
+import styles from './MapBlock.module.scss';
 
 export const MapBlock = () => {
   return (
@@ -11,8 +11,7 @@ export const MapBlock = () => {
         <div className={styles.mapWrapper}>
           <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3A4127b9027e8f8234615191cb278aa59803b9afba114234acbe14155a313dad74&amp;source=constructor"
-            width="600"
-            height="300"
+            allowFullScreen
           ></iframe>
         </div>
       </div>

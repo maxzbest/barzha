@@ -1,3 +1,7 @@
+$tabletLg: 1024px;
+$tablet: 768px;
+$mobileLg: 640px;
+
 .wrapper {
   width: 100%;
   background: var(--color-black);
@@ -7,6 +11,15 @@
   flex-direction: column;
   align-items: center;
   gap: 70px;
+
+  @media (max-width: $tablet) {
+    padding: 20px 20px;
+    gap: 40px;
+  }
+
+  @media (max-width: $mobileLg) {
+    gap: 20px;
+  }
 }
 
 .textWrapper {
@@ -16,10 +29,18 @@
   text-align: center;
   width: 660px;
   background: rgba(0, 0, 0, 0.5);
+
+  @media (max-width: $tablet) {
+    width: auto;
+  }
 }
 
 .textWrapper h2 {
   font-size: 54px;
+
+  @media (max-width: $tablet) {
+    font-size: 10vw;
+  }
 }
 
 .textWrapper p {
@@ -33,6 +54,10 @@
   color: var(--color-black);
   border-radius: 8px;
   overflow: hidden;
+
+  @media (max-width: $tablet) {
+    width: auto;
+  }
 }
 
 .videoImage {

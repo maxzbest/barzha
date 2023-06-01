@@ -1,13 +1,13 @@
-import Image from "next/image";
-import styles from "./Footer.module.css";
+import Image from 'next/image';
+import styles from './Footer.module.scss';
 
-export const Footer = (props) => {
+export const Footer = props => {
   // return props;
   return (
     <>
       <footer className={styles.footerWrapper}>
         <a
-          href="https://ya.ru"
+          href="https://simbilet.ru/vse-kategorii/konczertyi/drugoe/muzyikalnyijfestivalbarzhalive"
           className={styles.buyLink}
           target="_blank"
           rel="noopener noreferrer"
@@ -15,13 +15,13 @@ export const Footer = (props) => {
           Купить билеты
         </a>
         <div>
-          Музыкальным группам{" "}
+          Музыкальным группам{' '}
           <a className={styles.mailLink} href="mailto:901_km@mail.ru">
             901_km@mail.ru
           </a>
           <br />
           <br />
-          По вопросам аккредитации{" "}
+          По вопросам аккредитации{' '}
           <a className={styles.mailLink} href="mailto:dszm73@yandex.ru">
             dszm73@yandex.ru
           </a>
