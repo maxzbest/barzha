@@ -41,3 +41,11 @@ $mobileLg: 640px;
   text-decoration: underline;
   color: var(--color-red);
 }
+
+.partnerImage {
+  width: 500px;
+  transform: translateX(-2px);
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}

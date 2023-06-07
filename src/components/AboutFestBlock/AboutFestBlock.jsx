@@ -1,5 +1,4 @@
 import styles from './AboutFestBlock.module.scss';
-import Image from 'next/image';
 
 export const AboutFestBlock = () => {
   return (

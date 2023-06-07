@@ -1,5 +1,4 @@
-import Image from "next/image";
-import styles from "./Header.module.scss";
+import styles from './Header.module.scss';
 
 export const Header = () => {
   return (
@@ -25,12 +24,12 @@ export const Header = () => {
           </ul>
         </nav>
         <a
-          href="https://vk.com/topic-219089516_49075521"
+          href="https://vk.com/barzha.live"
           className={styles.requestLink}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Подать&nbsp;заявку
+          Мы&nbsp;в&nbsp;ВК
         </a>
         <a
           href="https://simbilet.ru/vse-kategorii/konczertyi/drugoe/muzyikalnyijfestivalbarzhalive"

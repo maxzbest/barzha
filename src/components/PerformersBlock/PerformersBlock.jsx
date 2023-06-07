@@ -1,5 +1,6 @@
 import styles from './PerformersBlock.module.scss';
-import Image from 'next/image';
+import ExportedImage from 'next-image-export-optimizer';
+import img from '../../../public/band.png';
 
 export const PerformersBlock = () => {
   return (
@@ -16,12 +17,10 @@ export const PerformersBlock = () => {
           </p>
         </div>
         <div className={styles.videoWrapper}>
-          <Image
-            src="/band.jpg"
+          <ExportedImage
+            src={img}
             alt="Музыкальная группа"
             className={styles.videoImage}
-            width={100}
-            height={100}
             priority
           />
         </div>

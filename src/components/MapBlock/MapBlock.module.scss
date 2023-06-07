@@ -1,3 +1,4 @@
+$desktop: 1440px;
 $tabletLg: 1024px;
 $tablet: 768px;
 $mobileLg: 640px;
@@ -56,7 +57,11 @@ $mobileLg: 640px;
   position: relative;
   width: 100%;
   max-width: 600px;
-  padding-bottom: 36.25%;
+  padding-bottom: 16.25%;
+
+  @media (max-width: $desktop) {
+    padding-bottom: 36.25%;
+  }
 
   @media (max-width: $tablet) {
     padding-bottom: 56.25%;
@@ -68,6 +73,7 @@ $mobileLg: 640px;
     left: 0;
     width: 100%;
     height: 100%;
+    border: none;
   }
 }
 

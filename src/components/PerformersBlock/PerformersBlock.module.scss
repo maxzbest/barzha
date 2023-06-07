@@ -61,7 +61,8 @@ $mobileLg: 640px;
 }
 
 .videoImage {
-  width: 100%;
+  width: 101%;
+  transform: translateX(-2px);
   height: 100%;
   display: block;
   object-fit: cover;
