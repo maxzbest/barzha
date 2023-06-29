@@ -17,7 +17,7 @@ export const AboutFestBlock = () => {
         <div className={styles.videoWrapper}>
           <iframe
             src="https://www.youtube.com/embed/ujkw73Nd9dI"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
       </div>

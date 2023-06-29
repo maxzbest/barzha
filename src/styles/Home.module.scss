@@ -1,3 +1,5 @@
+$tablet: 768px;
+
 .main {
   display: flex;
   flex-direction: column;
@@ -9,6 +11,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+
+  @media (max-width: $tablet) {
+    background-size: auto;
+  }
 }
 
 .description {

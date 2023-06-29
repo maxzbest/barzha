@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { Roboto } from 'next/font/google';
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Home.module.scss';
 import { Header } from '@/components/Header/Header';
 import { AboutFestBlock } from '@/components/AboutFestBlock/AboutFestBlock';
 import { MapBlock } from '@/components/MapBlock/MapBlock';
