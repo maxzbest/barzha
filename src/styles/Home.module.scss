@@ -8,13 +8,13 @@ $tablet: 768px;
   padding: 0;
   min-height: 100vh;
   background: url(../../public/bg-big.jpg);
-  background-size: cover;
+  // background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 
-  @media (max-width: $tablet) {
-    background-size: auto;
-  }
+  // @media (max-width: $tablet) {
+  //   background-size: auto;
+  // }
 }
 
 .description {
