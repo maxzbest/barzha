@@ -18,6 +18,21 @@ export const Header = () => {
             </li>
             <li className={styles.headerNavListItem}>
               <a href="#3" className={styles.headerNavListItemLink}>
+                Активности
+              </a>
+            </li>
+            <li className={styles.headerNavListItem}>
+              <a href="#4" className={styles.headerNavListItemLink}>
+                Гастро
+              </a>
+            </li>
+            <li className={styles.headerNavListItem}>
+              <a href="#5" className={styles.headerNavListItemLink}>
+                Маркеты
+              </a>
+            </li>
+            <li className={styles.headerNavListItem}>
+              <a href="#6" className={styles.headerNavListItemLink}>
                 Место
               </a>
             </li>

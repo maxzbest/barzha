@@ -5,6 +5,9 @@ import { Header } from '@/components/Header/Header';
 import { AboutFestBlock } from '@/components/AboutFestBlock/AboutFestBlock';
 import { MapBlock } from '@/components/MapBlock/MapBlock';
 import { PerformersBlock } from '@/components/PerformersBlock/PerformersBlock';
+import { ActionsBlock } from '@/components/ActionsBlock/ActionsBlock';
+import { GastroBlock } from '@/components/GastroBlock/GastroBlock';
+import { MarketsBlock } from '@/components/MarketsBlock/MarketsBlock';
 import { Footer } from '@/components/Footer/Footer';
 
 const roboto = Roboto({ weight: '400', subsets: ['cyrillic'] });
@@ -25,6 +28,9 @@ export default function Home() {
         <Header />
         <AboutFestBlock />
         <PerformersBlock />
+        <ActionsBlock />
+        <GastroBlock />
+        <MarketsBlock />
         <MapBlock />
         <Footer />
       </main>

@@ -3,7 +3,7 @@ import styles from './MapBlock.module.scss';
 export const MapBlock = () => {
   return (
     <>
-      <div id="3" className={styles.wrapper}>
+      <div id="6" className={styles.wrapper}>
         <div className={styles.textWrapper}>
           <h2>Как добраться</h2>
           <p>г. Ульяновск, Ульяновский Речной порт, ул. Портовая, 25</p>

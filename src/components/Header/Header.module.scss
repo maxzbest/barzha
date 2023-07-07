@@ -29,6 +29,10 @@ $mobileLg: 640px;
   color: var(--color-white);
   height: 100px;
   width: 100%;
+
+  @media (max-width: $mobileLg) {
+    overflow: scroll;
+  }
 }
 
 .headerNavList {
