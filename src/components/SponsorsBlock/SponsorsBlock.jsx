@@ -25,7 +25,7 @@ import img22 from '../../../public/barzha_sponsors/22.png';
 import img23 from '../../../public/barzha_sponsors/23.svg';
 import img24 from '../../../public/barzha_sponsors/24.svg';
 import img25 from '../../../public/barzha_sponsors/25.svg';
-import imgVol from '../../../public/barzha_sponsors/volzhanka.jpg';
+import imgVol from '../../../public/barzha_sponsors/volzhanka.png';
 
 export const SponsorsBlock = () => {
   return (
