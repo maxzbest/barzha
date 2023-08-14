@@ -8,6 +8,7 @@ import { PerformersBlock } from '@/components/PerformersBlock/PerformersBlock';
 import { ActionsBlock } from '@/components/ActionsBlock/ActionsBlock';
 import { GastroBlock } from '@/components/GastroBlock/GastroBlock';
 import { MarketsBlock } from '@/components/MarketsBlock/MarketsBlock';
+import { SponsorsBlock } from '@/components/SponsorsBlock/SponsorsBlock';
 import { Footer } from '@/components/Footer/Footer';
 
 const roboto = Roboto({ weight: '400', subsets: ['cyrillic'] });
@@ -33,6 +34,7 @@ export default function Home() {
         <MarketsBlock />
         <MapBlock />
         <Footer />
+        <SponsorsBlock />
       </main>
     </>
   );

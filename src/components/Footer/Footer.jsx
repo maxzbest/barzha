@@ -15,20 +15,6 @@ export const Footer = props => {
         >
           Купить билеты
         </a>
-        <div>
-          <a
-            href="https://allfest.ru/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <ExportedImage
-              src={partner1}
-              alt="Allfest"
-              className={styles.partnerImage}
-              priority
-            />
-          </a>
-        </div>
       </footer>
     </>
   );
