@@ -5,6 +5,7 @@ import { Header } from '@/components/Header/Header';
 import { AboutFestBlock } from '@/components/AboutFestBlock/AboutFestBlock';
 import { MapBlock } from '@/components/MapBlock/MapBlock';
 import { PerformersBlock } from '@/components/PerformersBlock/PerformersBlock';
+import { LastPerformersBlock } from '@/components/LastPerformersBlock/LastPerformersBlock';
 import { ActionsBlock } from '@/components/ActionsBlock/ActionsBlock';
 import { GastroBlock } from '@/components/GastroBlock/GastroBlock';
 import { MarketsBlock } from '@/components/MarketsBlock/MarketsBlock';
@@ -28,10 +29,11 @@ export default function Home() {
         <Header />
         <AboutFestBlock />
         <PerformersBlock />
-        <ActionsBlock />
-        <GastroBlock />
-        <MarketsBlock />
-        <MapBlock />
+        <LastPerformersBlock />
+        {/* <ActionsBlock /> */}
+        {/* <GastroBlock /> */}
+        {/* <MarketsBlock /> */}
+        {/* <MapBlock /> */}
         <Footer />
       </main>
     </>

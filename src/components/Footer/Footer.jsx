@@ -7,14 +7,14 @@ export const Footer = props => {
   return (
     <>
       <footer className={styles.footerWrapper}>
-        <a
-          href="https://simbilet.ru/vse-kategorii/konczertyi/drugoe/muzyikalnyijfestivalbarzhalive"
+        <span
+          // href="https://simbilet.ru/vse-kategorii/konczertyi/drugoe/muzyikalnyijfestivalbarzhalive"
           className={styles.buyLink}
-          target="_blank"
-          rel="noopener noreferrer"
+          // target="_blank"
+          // rel="noopener noreferrer"
         >
-          Купить билеты
-        </a>
+          Купить билеты (скоро)
+        </span>
         <div>
           <a
             href="https://allfest.ru/"

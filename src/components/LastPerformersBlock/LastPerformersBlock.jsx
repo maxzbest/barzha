@@ -1,4 +1,4 @@
-import styles from './PerformersBlock.module.scss';
+import styles from './LastPerformersBlock.module.scss';
 import ExportedImage from 'next-image-export-optimizer';
 import img1 from '../../../public/barzha_performers/1.jpeg';
 import img2 from '../../../public/barzha_performers/2.jpeg';
@@ -18,17 +18,14 @@ import img15 from '../../../public/barzha_performers/15.jpeg';
 import img16 from '../../../public/barzha_performers/16.jpeg';
 import img17 from '../../../public/barzha_performers/17.jpeg';
 
-export const PerformersBlock = () => {
+export const LastPerformersBlock = () => {
   return (
     <>
       <div id="2" className={styles.wrapper}>
         <div className={styles.textWrapper}>
-          <h2>Выступающие</h2>
+          <h2>Участники прошлой баржи 🤘🏽</h2>
         </div>
-        <div className={styles.textWrapper}>
-          <p style={{ color: 'var(--color-grey)' }}>Coming soon...</p>
-        </div>
-        {/* <div className={styles.videoWrapper}>
+        <div className={styles.videoWrapper}>
           <div className={styles.row}>
             <ExportedImage
               src={img1}
@@ -132,7 +129,7 @@ export const PerformersBlock = () => {
               className={styles.videoImage}
             />
           </div>
-        </div> */}
+        </div>
       </div>
     </>
   );

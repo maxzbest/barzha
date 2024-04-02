@@ -46,14 +46,14 @@ export const Header = () => {
         >
           Мы&nbsp;в&nbsp;ВК
         </a>
-        <a
-          href="https://simbilet.ru/vse-kategorii/konczertyi/drugoe/muzyikalnyijfestivalbarzhalive"
+        <span
+          // href="https://simbilet.ru/vse-kategorii/konczertyi/drugoe/muzyikalnyijfestivalbarzhalive"
           className={styles.buyLink}
-          target="_blank"
-          rel="noopener noreferrer"
+          // target="_blank"
+          // rel="noopener noreferrer"
         >
-          Купить&nbsp;билеты
-        </a>
+          Купить&nbsp;билеты (скоро)
+        </span>
       </header>
       <div className={styles.headerImageWrapper} />
     </>
